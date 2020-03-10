@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dhruvsahnan.github.io/static/css/main.5f361e03.chunk.css",
+    "main.js": "/dhruvsahnan.github.io/static/js/main.f1f7e6ef.chunk.js",
+    "main.js.map": "/dhruvsahnan.github.io/static/js/main.f1f7e6ef.chunk.js.map",
+    "runtime-main.js": "/dhruvsahnan.github.io/static/js/runtime-main.71072541.js",
+    "runtime-main.js.map": "/dhruvsahnan.github.io/static/js/runtime-main.71072541.js.map",
+    "static/js/2.b36f3cc3.chunk.js": "/dhruvsahnan.github.io/static/js/2.b36f3cc3.chunk.js",
+    "static/js/2.b36f3cc3.chunk.js.map": "/dhruvsahnan.github.io/static/js/2.b36f3cc3.chunk.js.map",
+    "index.html": "/dhruvsahnan.github.io/index.html",
+    "precache-manifest.88a2c8d060a86ade6c2f962ae3bc784a.js": "/dhruvsahnan.github.io/precache-manifest.88a2c8d060a86ade6c2f962ae3bc784a.js",
+    "service-worker.js": "/dhruvsahnan.github.io/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/dhruvsahnan.github.io/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.b36f3cc3.chunk.js.LICENSE.txt": "/dhruvsahnan.github.io/static/js/2.b36f3cc3.chunk.js.LICENSE.txt",
+    "static/js/main.f1f7e6ef.chunk.js.LICENSE.txt": "/dhruvsahnan.github.io/static/js/main.f1f7e6ef.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/dhruvsahnan.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71072541.js",
+    "static/js/2.b36f3cc3.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.f1f7e6ef.chunk.js"
+  ]
+}
