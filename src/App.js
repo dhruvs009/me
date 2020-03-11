@@ -1,24 +1,47 @@
 import React from 'react';
-import logo from './logo.svg';
+import { makeStyles } from "@material-ui/core/styles";
 import './App.css';
+import classNames from "classnames";
+import Parallax from "./components/Parallax.js";
+import GridContainer from "./components/GridContainer.js";
+import GridItem from "./components/GridItem.js";
+import Header from "./components/Header"
 
-function App() {
+import styles from "./assets/styles/components.js";
+import HeaderLinks from './components/HeaderLinks';
+const useStyles = makeStyles(styles);
+
+
+function App(props) {
+  const classes = useStyles();
+  const { ...rest } = props;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header
+        brand="Home"
+        rightLinks={<HeaderLinks />}
+        fixed
+        color="transparent"
+        changeColorOnScroll={{
+          height: 400,
+          color: "transparent"
+        }}
+        {...rest}
+      />
+      <Parallax>
+        <div className={classes.container}>
+          <GridContainer>
+            <GridItem>
+              <div className={classes.brand}>
+                <h1 className={classes.title}>Hey, I'm Dhruv.</h1>
+                <h3 className={classes.subtitle}>
+                  A socially awkward developer.
+                </h3>
+              </div>
+            </GridItem>
+          </GridContainer>
+        </div>
+      </Parallax>
     </div>
   );
 }
