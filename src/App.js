@@ -42,6 +42,17 @@ function App(props) {
           </GridContainer>
         </div>
       </Parallax>
+      <Parallax>
+        <div className={classes.container}>
+          <GridContainer>
+            <GridItem>
+              <div className={classes.brand}>
+                <h1 className={classes.title}>This website is still under construction.</h1>
+              </div>
+            </GridItem>
+          </GridContainer>
+        </div>
+      </Parallax>
     </div>
   );
 }
