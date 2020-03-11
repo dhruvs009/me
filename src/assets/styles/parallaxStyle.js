@@ -4,7 +4,7 @@ const parallaxStyle = {
       maxHeight: "1000px",
       overflow: "hidden",
       position: "relative",
-      backgroundColor: "#4e67eb",
+      backgroundColor: "#c5d5cb",
       backgroundPosition: "center center",
       backgroundSize: "cover",
       margin: "0",

@@ -3,7 +3,7 @@ import { container } from "../myweb";
 const componentsStyle = {
   container,
   brand: {
-    color: "#f0f4ff",
+    color: "#3b443f",
     textAlign: "left"
   },
   title: {
@@ -15,7 +15,8 @@ const componentsStyle = {
   subtitle: {
     fontSize: "1.313rem",
     maxWidth: "500px",
-    margin: "10px 0 0"
+    margin: "10px 0 0",
+    color: "#777671"
   },
   main: {
     background: "#FFFFFF",

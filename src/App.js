@@ -18,13 +18,12 @@ function App(props) {
   return (
     <div>
       <Header
-        brand="Home"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
         changeColorOnScroll={{
-          height: 400,
-          color: "transparent"
+          height: 300,
+          color: "primary"
         }}
         {...rest}
       />
@@ -35,7 +34,7 @@ function App(props) {
               <div className={classes.brand}>
                 <h1 className={classes.title}>Hey, I'm Dhruv.</h1>
                 <h3 className={classes.subtitle}>
-                  A socially awkward developer.
+                  A socially awkward (!web) developer.
                 </h3>
               </div>
             </GridItem>

@@ -16,12 +16,11 @@ import {
     appBar: {
       display: "flex",
       border: "0",
-      borderRadius: "3px",
       padding: "0.625rem 0",
       marginBottom: "20px",
-      color: "#f0f4ff",
+      color: "#3b443f",
       width: "100%",
-      backgroundColor: "#291d89",
+      backgroundColor: "#ffffff",
       boxShadow:
         "0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15)",
       transition: "all 150ms ease 0s",
@@ -57,22 +56,22 @@ import {
       fontSize: "18px",
       borderRadius: "3px",
       textTransform: "none",
-      color: "#f0f4ff",
+      color: "#ffffff",
       padding: "8px 16px",
       letterSpacing: "unset",
       "&:hover,&:focus": {
-        color: "#f0f4ff",
-        background: "rgba(255, 255, 255, 0.4)"
+        color: "#f6f5f3",
+        background: "rgba(255, 255, 255, 0.3)"
       }
     },
     appResponsive: {
       margin: "20px 10px"
     },
     primary: {
-      backgroundColor: primaryColor,
-      color: "#FFFFFF",
+      backgroundColor: "#3b443f",
+      color: "#c5d5cb",
       boxShadow:
-        "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(156, 39, 176, 0.46)"
+      "0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15)"
     },
     info: {
       backgroundColor: infoColor,
@@ -105,10 +104,10 @@ import {
         "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(233, 30, 99, 0.46)"
     },
     transparent: {
-      backgroundColor: "#291d89",
-      boxShadow: "0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15)",
+      backgroundColor: "transparent",
+      boxShadow: "none",
       paddingTop: "25px",
-      color: "#f0f4ff"
+      color: "#3b443f"
     },
     dark: {
       color: "#FFFFFF",

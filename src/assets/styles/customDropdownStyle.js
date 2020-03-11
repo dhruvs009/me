@@ -62,7 +62,7 @@ import {
       clear: "both",
       fontWeight: "400",
       height: "fit-content",
-      color: "#333",
+      color: "#3b443f",
       whiteSpace: "nowrap",
       minHeight: "unset"
     },
@@ -70,49 +70,49 @@ import {
       "&:hover": {
         boxShadow:
           "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(33, 33, 33, 0.4)",
-        backgroundColor: "#212121",
-        color: "#fff"
+        backgroundColor: "rgba(59,68,63,0.6)",
+        color: "#3b443f"
       }
     },
     primaryHover: {
       "&:hover": {
-        backgroundColor: "rgba(100,100,100,0.4)",
-        color: "#000000",
+        backgroundColor: "rgba(59,68,63,0.3)",
+        color: "#3b443f",
         ...primaryBoxShadow
       }
     },
     infoHover: {
       "&:hover": {
         backgroundColor: infoColor,
-        color: "#FFFFFF",
+        color: "#3b443f",
         ...infoBoxShadow
       }
     },
     successHover: {
       "&:hover": {
         backgroundColor: successColor,
-        color: "#FFFFFF",
+        color: "#3b443f",
         ...successBoxShadow
       }
     },
     warningHover: {
       "&:hover": {
         backgroundColor: warningColor,
-        color: "#FFFFFF",
+        color: "#3b443f",
         ...warningBoxShadow
       }
     },
     dangerHover: {
       "&:hover": {
         backgroundColor: dangerColor,
-        color: "#FFFFFF",
+        color: "#3b443f",
         ...dangerBoxShadow
       }
     },
     roseHover: {
       "&:hover": {
         backgroundColor: roseColor,
-        color: "#FFFFFF",
+        color: "#3b443f",
         ...roseBoxShadow
       }
     },
