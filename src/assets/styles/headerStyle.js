@@ -131,6 +131,7 @@ import {
       transitionDuration: ".2s, .2s, .35s",
       transitionTimingFunction: "linear, linear, ease",
       width: drawerWidth,
+      backgroundColor:"#c5d5cb",
       ...boxShadow,
       position: "fixed",
       display: "block",
