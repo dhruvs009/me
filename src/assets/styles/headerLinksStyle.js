@@ -50,7 +50,7 @@ const headerLinksStyle = theme => ({
     display: "inline-flex",
     "&:hover,&:focus": {
       color: "inherit",
-      background: "rgba(100, 100, 100, 0.4)"
+      background: "rgba(255, 255, 255, 0.4)"
     },
     [theme.breakpoints.down("sm")]: {
       width: "calc(100% - 30px)",

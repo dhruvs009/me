@@ -3,7 +3,7 @@ import { container } from "../myweb";
 const componentsStyle = {
   container,
   brand: {
-    color: "#000000",
+    color: "#f0f4ff",
     textAlign: "left"
   },
   title: {
