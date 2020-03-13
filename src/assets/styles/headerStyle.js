@@ -68,8 +68,8 @@ import {
       margin: "20px 10px"
     },
     primary: {
-      backgroundColor: "#3b443f",
-      color: "#c5d5cb",
+      backgroundColor: "#1f2833",
+      color: "#fefefe",
       boxShadow:
       "0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15)"
     },
@@ -107,7 +107,7 @@ import {
       backgroundColor: "transparent",
       boxShadow: "none",
       paddingTop: "25px",
-      color: "#3b443f"
+      color: "#66fcf1"
     },
     dark: {
       color: "#FFFFFF",
@@ -131,7 +131,7 @@ import {
       transitionDuration: ".2s, .2s, .35s",
       transitionTimingFunction: "linear, linear, ease",
       width: drawerWidth,
-      backgroundColor:"#c5d5cb",
+      backgroundColor:"#c5c6c7",
       ...boxShadow,
       position: "fixed",
       display: "block",

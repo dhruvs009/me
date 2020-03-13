@@ -30,7 +30,7 @@ import {
       fontSize: "14px",
       textAlign: "left",
       listStyle: "none",
-      backgroundColor: "#fff",
+      backgroundColor: "#c5c6c7",
       backgroundClip: "padding-box"
     },
     menuList: {
@@ -62,7 +62,7 @@ import {
       clear: "both",
       fontWeight: "400",
       height: "fit-content",
-      color: "#3b443f",
+      color: "#000000",
       whiteSpace: "nowrap",
       minHeight: "unset"
     },
@@ -71,48 +71,48 @@ import {
         boxShadow:
           "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(33, 33, 33, 0.4)",
         backgroundColor: "rgba(59,68,63,0.6)",
-        color: "#3b443f"
+        color: "#000000"
       }
     },
     primaryHover: {
       "&:hover": {
-        backgroundColor: "rgba(59,68,63,0.3)",
-        color: "#3b443f",
+        backgroundColor: "rgba(59,68,63,0.4)",
+        color: "#000000",
         ...primaryBoxShadow
       }
     },
     infoHover: {
       "&:hover": {
         backgroundColor: infoColor,
-        color: "#3b443f",
+        color: "#000000",
         ...infoBoxShadow
       }
     },
     successHover: {
       "&:hover": {
         backgroundColor: successColor,
-        color: "#3b443f",
+        color: "#000000",
         ...successBoxShadow
       }
     },
     warningHover: {
       "&:hover": {
         backgroundColor: warningColor,
-        color: "#3b443f",
+        color: "#000000",
         ...warningBoxShadow
       }
     },
     dangerHover: {
       "&:hover": {
         backgroundColor: dangerColor,
-        color: "#3b443f",
+        color: "#000000",
         ...dangerBoxShadow
       }
     },
     roseHover: {
       "&:hover": {
         backgroundColor: roseColor,
-        color: "#3b443f",
+        color: "#000000",
         ...roseBoxShadow
       }
     },
