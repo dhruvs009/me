@@ -11,9 +11,10 @@ import 'react-vertical-timeline-component/style.min.css';
 import {FaStar, FaBook, FaBookOpen} from 'react-icons/fa'
 import { MdWork } from 'react-icons/md'
 import { GiMaterialsScience } from 'react-icons/gi'
-
 import styles from "./assets/styles/components.js";
 import HeaderLinks from './components/HeaderLinks';
+import { Grid } from '@material-ui/core';
+import Projects from './components/Projects';
 const useStyles = makeStyles(styles);
 
 
@@ -47,6 +48,14 @@ function App(props) {
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)} style={{backgroundColor: "#d6d7d8"}}>
+        <div className={classes.brand} style={{backgroundColor: "#1f2833"}}>
+          <h3 className={classes.title} style={{fontSize: 40, marginLeft: 75, color: "#fefefe"}}>Projects</h3>
+        </div>
+        <br></br>
+        <Projects />
+        <br></br>
+      </div>
+      <div className={classNames(classes.main, classes.mainRaised)} style={{backgroundColor: "#d6d7d8", marginTop:10}}>
         <div className={classes.brand} style={{backgroundColor: "#1f2833"}}>
           <h3 className={classes.title} style={{fontSize: 40, marginLeft: 75, color: "#fefefe"}}>Life so far</h3>
         </div>
@@ -82,7 +91,7 @@ function App(props) {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#fefefe', color: '#0b0c10' }}
             contentArrowStyle={{ borderRight: '7px solid  #fefefe' }}
-            date="April 2019- August 2020"
+            date="April 2019- August 2019"
             iconStyle={{ background: '#0b0c10', color: '#fefefe' }}
             icon={<GiMaterialsScience />}
           >
