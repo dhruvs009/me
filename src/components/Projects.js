@@ -10,8 +10,8 @@ import { Grid } from '@material-ui/core';
 const useStyles = makeStyles({
   root: {
     width: 275,
-    height:300,
-    marginLeft: 50,
+    marginLeft: 17,
+    height: 440,
     backgroundColor: "#fefefe"
   },
   bullet: {
@@ -45,8 +45,9 @@ export default function Projects() {
             <Typography variant="h5" component="h2">
               <b>ATTRACT</b>
             </Typography>
+            <img src={require('../assets/images/ATTRACT.png')} width="200" style={{borderRadius:10, margin: 18.75}}/>
             <Typography className={classes.pos} variant="body2" component="p">
-              A noticeboard to stick paper on, using just electrostatic force generated all over the surface using the high voltage generating Tesla coil, a sheet of aluminium foil and an insulating plastic covering.
+              A noticeboard to stick paper on, using just electrostatic force generated all over the surface using a high voltage generating Tesla coil keeping in mind the design of the product from a customer's point of view.
             </Typography>
             <Typography style= {{fontSize:12, marginBottom:4}} variant="body2" component="p">
               <b>Advisor: </b>Dr. Aman Parnami
@@ -70,6 +71,7 @@ export default function Projects() {
             <Typography variant="h5" component="h2">
               <b>GLIDE-IT</b>
             </Typography>
+            <img src={require('../assets/images/GlideIT.jpeg')} width="200" style={{borderRadius:10, margin: 18.75}}/>
             <Typography className={classes.pos} variant="body2" component="p">
               A minimalistic glove that helps in giving presentations to change slides, playing and pausing videos and songs, and also to use as a mouse just by simple gestures of the hand while wearing it.
             </Typography>
@@ -89,6 +91,58 @@ export default function Projects() {
           </CardActions> */}
         </Card>
       </Grid>
+      <Grid item xs={12} sm={6} md={3}>
+        <Card className={classes.root}>
+          <CardContent>
+            <Typography variant="h5" component="h2">
+              <b>PvZ</b>
+            </Typography>
+            <img src={require('../assets/images/PlantsVSZombies.png')} width="200" style={{borderRadius:10, margin: 18.75}}/>
+            <Typography className={classes.pos} variant="body2" component="p">
+              A clone of the famous Plants Vs. Zombies written in Java using JavaFX. There was a major focus on object oriented programming and its underliying design principles. 
+            </Typography>
+            <Typography style= {{fontSize:12, marginBottom:4}} variant="body2" component="p">
+              <b>Advisor: </b>Dr. Vivek Kumar
+              <br />
+              <b>Team Members: </b>Sargam, Dhruv
+              <br />
+              <a href="https://github.com/dhruvs009/PlantsVsZombies"><b>Link to Github repository.</b></a>
+            </Typography>
+            <Typography color="textSecondary" style={{fontSize:12}}>
+              in Advanced Programming<br></br>(IIITD - Monsoon 2019)
+            </Typography>
+          </CardContent>
+          {/* <CardActions>
+            <Button size="small">More</Button>
+          </CardActions> */}
+        </Card>
+      </Grid>
+      {/* <Grid item xs={12} sm={6} md={3}>
+        <Card className={classes.root}>
+          <CardContent>
+            <Typography variant="h5" component="h2">
+              <b>GLIDE-IT</b>
+            </Typography>
+            <img src={require('../assets/images/GlideIT.jpeg')} width="200" style={{borderRadius:10, margin: 18.75}}/>
+            <Typography className={classes.pos} variant="body2" component="p">
+              A minimalistic glove that helps in giving presentations to change slides, playing and pausing videos and songs, and also to use as a mouse just by simple gestures of the hand while wearing it.
+            </Typography>
+            <Typography style= {{fontSize:12, marginBottom:4}} variant="body2" component="p">
+              <b>Advisor: </b>Dr. Aman Parnami
+              <br />
+              <b>Team: </b>(d)IED
+              <br />
+              <b>Members: </b>Pranay, Rachit, Chavisha, Dhruv
+            </Typography>
+            <Typography color="textSecondary" style={{fontSize:12}}>
+              in Introduction to Engineering Design<br></br>(IIITD - Winter 2019)
+            </Typography>
+          </CardContent> */}
+          {/* <CardActions>
+            <Button size="small">More</Button>
+          </CardActions> */}
+        {/* </Card>
+      </Grid> */}
     </Grid>
   );
 }
