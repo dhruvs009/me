@@ -43,47 +43,21 @@ export default function Projects() {
         <Card className={classes.root}>
           <CardContent>
             <Typography variant="h5" component="h2">
-              <b>ATTRACT</b>
+              <b>StrEther</b>
             </Typography>
-            <img src={require('../assets/images/ATTRACT.png')} width="200" style={{borderRadius:10, margin: 18.75}}/>
+            <img src={require('../assets/images/ethereum.png')} width="200" height="110" style={{margin: 18.75}}/>
             <Typography className={classes.pos} variant="body2" component="p">
-              A noticeboard to stick paper on, using just electrostatic force generated all over the surface using a high voltage generating Tesla coil keeping in mind the design of the product from a customer's point of view.
+              A pay-per-view live streaming service using the Ethereum blockchain to do transactions for every second of content viewed for lectures, live events, etc. 
             </Typography>
             <Typography style= {{fontSize:12, marginBottom:4}} variant="body2" component="p">
-              <b>Advisor: </b>Dr. Aman Parnami
+              <b>Team: </b>#@$# brownies
               <br />
-              <b>Team: </b>(d)IED
+              <b>Members: </b>Aditya, Parth, Vasu, Dhruv
               <br />
-              <b>Members: </b>Pranay, Rachit, Chavisha, Dhruv
+              <a href="https://github.com/dhruvs009/strether"><b>Link to Github repository.</b></a>
             </Typography>
             <Typography color="textSecondary" style={{fontSize:12}}>
-              in Introduction to Engineering Design<br></br>(IIITD - Winter 2019)
-            </Typography>
-          </CardContent>
-          {/* <CardActions>
-            <Button size="small">More</Button>
-          </CardActions> */}
-        </Card>
-      </Grid>
-      <Grid item xs={12} sm={6} md={3}>
-        <Card className={classes.root}>
-          <CardContent>
-            <Typography variant="h5" component="h2">
-              <b>GLIDE-IT</b>
-            </Typography>
-            <img src={require('../assets/images/GlideIT.jpeg')} width="200" style={{borderRadius:10, margin: 18.75}}/>
-            <Typography className={classes.pos} variant="body2" component="p">
-              A minimalistic glove that helps in giving presentations to change slides, playing and pausing videos and songs, and also to use as a mouse just by simple gestures of the hand while wearing it.
-            </Typography>
-            <Typography style= {{fontSize:12, marginBottom:4}} variant="body2" component="p">
-              <b>Advisor: </b>Dr. Aman Parnami
-              <br />
-              <b>Team: </b>(d)IED
-              <br />
-              <b>Members: </b>Pranay, Rachit, Chavisha, Dhruv
-            </Typography>
-            <Typography color="textSecondary" style={{fontSize:12}}>
-              in Introduction to Engineering Design<br></br>(IIITD - Winter 2019)
+              in HackVSIT'20<br></br>(VIPS with Major League Hacking)
             </Typography>
           </CardContent>
           {/* <CardActions>
@@ -99,10 +73,10 @@ export default function Projects() {
             </Typography>
             <img src={require('../assets/images/PlantsVSZombies.png')} width="200" style={{borderRadius:10, margin: 18.75}}/>
             <Typography className={classes.pos} variant="body2" component="p">
-              A clone of the famous Plants Vs. Zombies written in Java using JavaFX. There was a major focus on object oriented programming and its underliying design principles. 
+              A clone of the famous Plants Vs. Zombies written in Java using JavaFX. There was a major focus on object oriented programming and its underlying design principles. 
             </Typography>
             <Typography style= {{fontSize:12, marginBottom:4}} variant="body2" component="p">
-              <b>Advisor: </b>Dr. Vivek Kumar
+              <b>Faculty: </b>Dr. Vivek Kumar
               <br />
               <b>Team Members: </b>Sargam, Dhruv
               <br />
@@ -117,7 +91,7 @@ export default function Projects() {
           </CardActions> */}
         </Card>
       </Grid>
-      {/* <Grid item xs={12} sm={6} md={3}>
+      <Grid item xs={12} sm={6} md={3}>
         <Card className={classes.root}>
           <CardContent>
             <Typography variant="h5" component="h2">
@@ -128,7 +102,7 @@ export default function Projects() {
               A minimalistic glove that helps in giving presentations to change slides, playing and pausing videos and songs, and also to use as a mouse just by simple gestures of the hand while wearing it.
             </Typography>
             <Typography style= {{fontSize:12, marginBottom:4}} variant="body2" component="p">
-              <b>Advisor: </b>Dr. Aman Parnami
+              <b>Faculty: </b>Dr. Aman Parnami
               <br />
               <b>Team: </b>(d)IED
               <br />
@@ -137,12 +111,64 @@ export default function Projects() {
             <Typography color="textSecondary" style={{fontSize:12}}>
               in Introduction to Engineering Design<br></br>(IIITD - Winter 2019)
             </Typography>
-          </CardContent> */}
+          </CardContent>
           {/* <CardActions>
             <Button size="small">More</Button>
           </CardActions> */}
-        {/* </Card>
-      </Grid> */}
+        </Card>
+      </Grid>
+      <Grid item xs={12} sm={6} md={3}>
+        <Card className={classes.root}>
+          <CardContent>
+            <Typography variant="h5" component="h2">
+              <b>ATTRACT</b>
+            </Typography>
+            <img src={require('../assets/images/ATTRACT.png')} width="200" style={{borderRadius:10, margin: 18.75}}/>
+            <Typography className={classes.pos} variant="body2" component="p">
+              A noticeboard to stick paper on, using just electrostatic force generated all over the surface using a high voltage generating Tesla coil keeping in mind the design of the product from a customer's point of view.
+            </Typography>
+            <Typography style= {{fontSize:12, marginBottom:4}} variant="body2" component="p">
+              <b>Faculty: </b>Dr. Aman Parnami
+              <br />
+              <b>Team: </b>(d)IED
+              <br />
+              <b>Members: </b>Pranay, Rachit, Chavisha, Dhruv
+            </Typography>
+            <Typography color="textSecondary" style={{fontSize:12}}>
+              in Introduction to Engineering Design<br></br>(IIITD - Winter 2019)
+            </Typography>
+          </CardContent>
+          {/* <CardActions>
+            <Button size="small">More</Button>
+          </CardActions> */}
+        </Card>
+      </Grid>
+      <Grid item xs={12} sm={6} md={3}>
+        <Card className={classes.root}>
+          <CardContent>
+            <Typography variant="h5" component="h2">
+              <b>Hardly Pondered</b>
+            </Typography>
+            <img src={require('../assets/images/hardlypondered.png')} width="200" style={{borderRadius:10, margin: 18.75}}/>
+            <Typography className={classes.pos} variant="body2" component="p">
+            A very basic, simple, 2D, hopefully pretty, multiplayer game; which is controlled by your mobile phone's ACCELEROMETER and GESTURES created upon p5.js, socket.io, NodeJS and of course HTML and CSS.
+            </Typography>
+            <Typography style= {{fontSize:12, marginBottom:4}} variant="body2" component="p">
+              <b>Team: </b>CODERS++
+              <br />
+              <b>Members: </b>Swastik, Satvika, Vasu, Dhruv
+              <br />
+              <a href="https://github.com/CrypticGuy/hp-mobi"><b>Link to Github repository.</b></a>
+            </Typography>
+            <Typography color="textSecondary" style={{fontSize:12}}>
+              in Hackathon v15 (Winners)<br></br>(Byld + Electroholics - January 2019)
+            </Typography>
+          </CardContent>
+          {/* <CardActions>
+            <Button size="small">More</Button>
+          </CardActions> */}
+        </Card>
+      </Grid>
     </Grid>
   );
 }
