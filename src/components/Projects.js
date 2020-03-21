@@ -43,6 +43,32 @@ export default function Projects() {
         <Card className={classes.root}>
           <CardContent>
             <Typography variant="h5" component="h2">
+              <b>StitchIg!</b>
+            </Typography>
+            <img src={require('../assets/images/StitchIg.png')} width="200" height="110" style={{margin: 18.75, borderRadius: 10}}/>
+            <Typography className={classes.pos} variant="body2" component="p">
+            A simple web application that fetches images from your Instagram account and returns a stitched 196x196 image in a square grid, with square thumbnails of these images. 
+            </Typography>
+            <Typography style= {{fontSize:12, marginBottom:4}} variant="body2" component="p">
+              <b>Dhruv Sahnan</b>
+              <br />
+              <a href="https://github.com/dhruvs009/StitchIg"><b>Link to Github repository.</b></a>
+              <br />
+              <a href="https://www.instagram.com/oauth/authorize?client_id=3311032495590903&redirect_uri=https://stitchig.herokuapp.com/&scope=user_profile,user_media&response_type=code"><b>Click here to see the magic!</b></a>
+            </Typography>
+            <Typography color="textSecondary" style={{fontSize:12}}>
+              in Quarantine<br></br>(COVID-19, March 2020)
+            </Typography>
+          </CardContent>
+          {/* <CardActions>
+            <Button size="small">More</Button>
+          </CardActions> */}
+        </Card>
+      </Grid>
+      <Grid item xs={12} sm={6} md={3}>
+        <Card className={classes.root}>
+          <CardContent>
+            <Typography variant="h5" component="h2">
               <b>StrEther</b>
             </Typography>
             <img src={require('../assets/images/ethereum.png')} width="200" height="110" style={{margin: 18.75}}/>
