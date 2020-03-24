@@ -14,7 +14,8 @@ import { GiMaterialsScience } from 'react-icons/gi'
 import styles from "./assets/styles/components.js";
 import HeaderLinks from './components/HeaderLinks';
 import { Grid } from '@material-ui/core';
-import Projects from './components/Projects';
+import Projects from './components/Projects';                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+import AboutMe from './components/AboutMe';
 const useStyles = makeStyles(styles);
 
 
@@ -22,7 +23,7 @@ function App(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
-    <div>
+    <div>                                                                                                                                           
       <Header
         rightLinks={<HeaderLinks />}
         fixed
@@ -47,7 +48,12 @@ function App(props) {
           </GridContainer>
         </div>
       </Parallax>
-      <div className={classNames(classes.main, classes.mainRaised)} style={{backgroundColor: "#d6d7d8"}}>
+      <div className={classNames(classes.main, classes.mainRaised)} style={{backgroundColor: "#dadbdc"}}>
+        <br></br>
+        <AboutMe />
+        <br></br>
+      </div>
+      <div className={classNames(classes.main, classes.mainRaised)} style={{backgroundColor: "#dadbdc", marginTop:10}}>
         <div className={classes.brand} style={{backgroundColor: "#1f2833"}}>
           <h3 className={classes.title} style={{fontSize: 40, marginLeft: 75, color: "#fefefe"}}>Projects</h3>
         </div>
@@ -55,7 +61,7 @@ function App(props) {
         <Projects />
         <br></br>
       </div>
-      <div className={classNames(classes.main, classes.mainRaised)} style={{backgroundColor: "#d6d7d8", marginTop:10}}>
+      <div className={classNames(classes.main, classes.mainRaised)} style={{backgroundColor: "#dadbdc", marginTop:10}}>
         <div className={classes.brand} style={{backgroundColor: "#1f2833"}}>
           <h3 className={classes.title} style={{fontSize: 40, marginLeft: 75, color: "#fefefe"}}>Life so far</h3>
         </div>

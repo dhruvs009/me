@@ -1,7 +1,6 @@
 /*eslint-disable*/
 import React from "react";
 import { FaLinkedinIn, FaInstagram, FaGithub } from "react-icons/fa";
-import { MdMail } from 'react-icons/md'
 import DeleteIcon from "@material-ui/icons/Delete";
 import IconButton from "@material-ui/core/IconButton";
 
@@ -101,23 +100,6 @@ export default function HeaderLinks(props) {
             className={classes.navLink}
           >
             <FaLinkedinIn/>
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="mail-tooltip"
-          title="Contact Dhruv by email"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="mailto:dhruv18230@iiitd.ac.in"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <MdMail/>
           </Button>
         </Tooltip>
       </ListItem>
