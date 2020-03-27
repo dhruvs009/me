@@ -74,7 +74,7 @@ function App(props) {
             iconStyle={{ background: '#0b0c10', color: '#fefefe' }}
             icon={<FaBookOpen />}
           >
-            <h3 className="vertical-timeline-element-title"><img src={require('./assets/images/iiitd.png')} height="60" /></h3>
+            <h3 className="vertical-timeline-element-title"><img src={require('./assets/images/iiitd.png')} height="100" /></h3>
             <p>
               Bachelor of Technology<br></br> (Computer Science and Applied Mathematics)
             </p>
@@ -101,7 +101,7 @@ function App(props) {
             iconStyle={{ background: '#0b0c10', color: '#fefefe' }}
             icon={<GiMaterialsScience />}
           >
-            <h3 className="vertical-timeline-element-title"><img src={require('./assets/images/weave.png')} height="55" /></h3>
+            <h3 className="vertical-timeline-element-title"><img src={require('./assets/images/weave.png')} height="70" /></h3>
             <h4 className="vertical-timeline-element-subtitle">Undergraduate Researcher at Weave Lab, IIITD</h4>
             <p>
               <b>Advisor: Dr. Aman Parnami</b>
