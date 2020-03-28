@@ -29,10 +29,11 @@ const aboutMeStyle = {
     margin: "0.571rem auto 0",
     maxWidth: "600px",
     color: "#444",
-    textAlign: "center !important"
+    textAlign: "center"
   },
   name: {
-    marginTop: "5px"
+    marginTop: "5px",
+    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif'
   },
   ...imagesStyle,
   main: {
@@ -99,7 +100,6 @@ export default class AboutMe extends Component{
         this.setState({
           github:response.data
         });
-        console.log(response);
       })
       .catch( (error) => {
         console.log(error);
@@ -153,7 +153,7 @@ export default class AboutMe extends Component{
         </GridContainer>
         <div style={aboutMeStyle.description}>
           <p>
-            A software developer with a wide algorithmic understanding and a craving to learn new technologies, likes to indulge himself in logical maths, cool open sourced dev projects and tinkering around with anything in sight and within reach.
+            A software developer with a wide algorithmic understanding and a yearning to learn new technologies, likes to indulge himself in logical maths, cool open sourced dev projects and tinkering around with anything in sight and within reach.
           </p>
         </div>
         <GridContainer justify="center">
