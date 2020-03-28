@@ -26,10 +26,11 @@ const aboutMeStyle = {
     }
   },
   description: {
-    margin: "0.571rem auto 0",
-    maxWidth: "600px",
+    margin: "0.371rem auto 0",
+    maxWidth: "550px",
     color: "#444",
-    textAlign: "center"
+    textAlign: "center",
+    alignContent: "center"
   },
   name: {
     marginTop: "5px",
@@ -156,7 +157,7 @@ export default class AboutMe extends Component{
             A software developer with a wide algorithmic understanding and a yearning to learn new technologies, likes to indulge himself in logical maths, cool open sourced dev projects and tinkering around with anything in sight and within reach.
           </p>
         </div>
-        <GridContainer justify="center">
+        <GridContainer justify="center" >
           <GridItem xs={6} sm={6} md={3}>
             <div style={aboutMeStyle.name}>
             <Tooltip
