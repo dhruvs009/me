@@ -35,6 +35,7 @@ class CFTimeline extends Component{
             <h3 className="vertical-timeline-element-title"><img src={require('../assets/images/codeforces.png')} height="55" /></h3>
             <h4 className="vertical-timeline-element-subtitle">masterd009 ({String(this.state.cf.rank)}) on Codeforces {String(this.state.cf.rating)}</h4>
           </VerticalTimelineElement>
+          
         </div>
       )
     }

@@ -121,6 +121,30 @@ export default function Projects() {
         <Card className={classes.root}>
           <CardContent>
             <Typography variant="h5" component="h2">
+              <b>PvZ</b>
+            </Typography>
+            <img src={require('../assets/images/PlantsVSZombies.png')} width="200" style={{borderRadius:10, margin: 18.75}}/>
+            <Typography className={classes.pos} variant="body2" component="p">
+              A multiplayer 2-D pool game written in JavaScript (p5.js, socket.io) that transforms your smartphone to the pool stick using no extra equipment (although, there's no restriction on attaching your phone to a stick to get the ultimate experience :) ).
+            </Typography>
+            <Typography style= {{fontSize:12, marginBottom:4}} variant="body2" component="p">
+              <b>Dhruv Sahnan</b>
+              <br />
+              <a href="https://github.com/dhruvs009/Pool"><b>Link to Github repository.</b></a>
+            </Typography>
+            <Typography color="textSecondary" style={{fontSize:12}}>
+              in Introduction to Engineering Design<br></br>(IIITD - Winter 2019)
+            </Typography>
+          </CardContent>
+          {/* <CardActions>
+            <Button size="small">More</Button>
+          </CardActions> */}
+        </Card>
+      </Grid>
+      <Grid item xs={12} sm={6} md={3}>
+        <Card className={classes.root}>
+          <CardContent>
+            <Typography variant="h5" component="h2">
               <b>GLIDE-IT</b>
             </Typography>
             <img src={require('../assets/images/GlideIT.jpeg')} width="200" style={{borderRadius:10, margin: 18.75}}/>
