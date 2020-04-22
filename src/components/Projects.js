@@ -121,7 +121,7 @@ export default function Projects() {
         <Card className={classes.root}>
           <CardContent>
             <Typography variant="h5" component="h2">
-              <b>PvZ</b>
+              <b>ool</b>
             </Typography>
             <img src={require('../assets/images/Pool.png')} width="200" style={{borderRadius:10, margin: 18.75}}/>
             <Typography className={classes.pos} variant="body2" component="p">
