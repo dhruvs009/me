@@ -67,19 +67,6 @@ function App(props) {
         </div>
         <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--education"
-            contentStyle={{ background: '#fefefe', color: '#0b0c10' }}
-            contentArrowStyle={{ borderRight: '7px solid  #fefefe' }}
-            date="2018 - present"
-            iconStyle={{ background: '#0b0c10', color: '#fefefe' }}
-            icon={<FaBookOpen />}
-          >
-            <h3 className="vertical-timeline-element-title"><img src={require('./assets/images/iiitd.png')} height="100" /></h3>
-            <p>
-              Bachelor of Technology<br></br> (Computer Science and Applied Mathematics)
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#fefefe', color: '#0b0c10' }}
             contentArrowStyle={{ borderRight: '7px solid  #fefefe' }}
@@ -106,6 +93,19 @@ function App(props) {
             <p>
               <b>Advisor: Dr. Aman Parnami</b>
               <br></br>Research, Team Collaboration, Creative Direction
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            contentStyle={{ background: '#fefefe', color: '#0b0c10' }}
+            contentArrowStyle={{ borderRight: '7px solid  #fefefe' }}
+            date="2018 - present"
+            iconStyle={{ background: '#0b0c10', color: '#fefefe' }}
+            icon={<FaBookOpen />}
+          >
+            <h3 className="vertical-timeline-element-title"><img src={require('./assets/images/iiitd.png')} height="100" /></h3>
+            <p>
+              Bachelor of Technology<br></br> (Computer Science and Applied Mathematics)
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
